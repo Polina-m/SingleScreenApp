@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTitleFontStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimenTextTitle</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_margin">@dimen/dimenExtraSmall</item>
+    </style>
+
+    <style name="CustomTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/dimenTextNormal</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:padding">@dimen/dimenExtraSmall</item>
+    </style>
+
+     <style name="CustomButtonStyle">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+
+         <item name="android:layout_alignBottom">@id/imageLogo</item>
+         <item name="android:layout_alignRight">@id/imageLogo</item>
+         <item name="android:layout_margin">@dimen/dimenExtraLarge </item>
+         <item name="android:background">@color/colorTextIcons</item>
+         <item name="android:padding">@dimen/dimenSmall</item>
+         <item name="android:textColor">@color/colorPrimaryText</item>
+
+         <!--android:text="@string/contact_us"-->
+     </style>
+
+</resources>
